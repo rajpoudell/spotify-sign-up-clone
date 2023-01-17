@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.container{
+    max-width: 450px;
+    height: 100vh;
+    margin: auto;
+
+}
+.image-logos{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 5rem;
+    border-bottom: 1px solid grey;
+}
+.logo h1{
+    font-size: 34px;
+    padding-top: 10px;
+}
+.signup-para{
+    margin: 25px auto;
+    text-align: center;
+    font-weight: 500;
+    line-height: 10px;
+}
+.social-link{
+    margin-top: 10px;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    background-color: #4267B2;
+    border-radius: 30px;
+    height: 3.5rem;
+    cursor: pointer;
+
+}
+.apple{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    height:3.5rem;
+    cursor: pointer;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    height:3.5rem;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.google h3 ,.facebook h3 , .apple h3{
+    margin-top: 2px;
+    margin-left: 15px;
+    font-weight: 900px;
+    font-size: 15px;
+    padding-top: 15px;
+    letter-spacing: 0.1rem;
+}
+.apple h3{
+    padding-top: 15px;
+}
+.google h3 {
+    color: rgb(118, 117, 116);
+}
+
+.google i {
+    color: black;
+}
+.fa-brands{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook h3 , .fa-brands{
+    padding-top: 15px ; 
+    color: rgb(255, 255, 255);
+}
+.first ,.second{
+    width: 50%;
+    
+}
+.line hr{
+    color: rgba(159, 159, 159, 0.64);
+}
+.line{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.line p {
+    margin: 0 20px;
+    font-size: 16px;
+}
+.inputs{
+    margin-top: 20px;
+}
+.email p , .password p {
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin: 10px auto;
+}
+
+.username{
+    width: 450px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: #000000;
+    outline: none;
+}
+input:focus{
+    outline: none !important;
+    border: 3px solid rgb(16, 16, 16);
+    border-color: #000000;
+}
+.inputs p {
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.rememberme{
+    display: flex;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.rememberme p {
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.rememberme input{
+    outline: none;
+    border: none;
+}
+.loginbtn button{
+    width: 450px;
+    height: 49px;
+    border-radius: 30px;
+    outline: none;
+    outline-style: none;
+    border: none;
+    background-color: rgba(42, 207, 42, 0.753);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+
+}
+.loginbtn button:hover{
+    background-color: rgba(6, 158, 6, 0.992);
+}
+.loginbtn hr{
+    margin-top: 15px;
+    color: rgba(159, 159, 159, 0.64);
+    outline: none;
+}
+.lastline{
+    text-align: center;
+}
+.lastline p {
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.lastline button{
+    width: 450px;
+    height: 49px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: 1.3px;
+    color: rgb(127, 126, 126);
+    outline: none;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.lastline button:hover{
+    box-shadow: 0px 0px  5px black;
+}
+
+
+
+
+
